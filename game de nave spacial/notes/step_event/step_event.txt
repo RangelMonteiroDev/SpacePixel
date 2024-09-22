@@ -1,0 +1,30 @@
+phy_position_y = posicao_y;
+
+if (place_meeting(x,y, obj_player)) {
+	
+	
+	if ( sprite_index == sprt_heart) {
+		
+		obj_player.hits = obj_player.hits - 3
+		
+		
+		}
+		
+	else if ( sprite_index == srpt_item_raio) {
+		
+		obj_bala_laiser.sprite_index = sprt_bala_eletrica
+		
+		
+		}
+	
+	else if ( sprite_index == sprt_pirula) {
+		
+		obj_bala_laiser.image_yscale = obj_bala_laiser.image_yscale + 1
+		
+		
+		}
+
+	image_alpha = 0;
+	
+	}
+
